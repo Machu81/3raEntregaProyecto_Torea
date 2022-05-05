@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   .main-wrapper {
+    background-color: #fffffa;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+  }
+
+$first-color: #03989E;
+$second-color: #2f4f4f;
+$gradient-color: linear-gradient (70deg, $second-color, #018b8b);

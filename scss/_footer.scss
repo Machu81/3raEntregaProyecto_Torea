@@ -1,0 +1,15 @@
+/*FOOTER*/
+
+footer {
+  grid-area: footer;
+    
+  color: #fffffa;
+  background: $gradient-color;
+  display: flex;
+  justify-content: center; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  width: 100%;
+}
+

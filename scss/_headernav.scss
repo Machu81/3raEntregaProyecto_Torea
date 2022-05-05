@@ -1,0 +1,120 @@
+/*HEADER*/
+
+header {
+  grid-area: header;
+    
+  grid-template-areas: 
+  "logo navbar";
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+  
+.logo {
+  grid-area: logo; 
+  
+  padding-top: 1px;
+  padding-left: 10px;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+li {
+  list-style: none;
+}
+ 
+.navbar {
+  grid-area: navbar;
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: $gradient-color;
+  color: #fffffa;
+  font-weight: bold;
+}
+  
+.nav-links {
+  a {
+    color: #fffffa;
+  }
+}
+  
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+  
+.menu {
+  li {
+    &:hover {
+      background-color: $first-color;
+      border-radius: 5px;
+      transition: 0.7s ease;
+    }
+  }
+}
+ 
+.menu {
+  li {
+  padding: 5px 15px;
+  }
+}
+  
+/* MENU DESPLEGABLE */
+   
+.menu-programas {
+  position: relative; 
+}
+  
+.dropdown {
+  background: $gradient-color;
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 37px;
+}
+  
+.dropdown {
+  li {
+    li {
+      margin-top: 10px;
+    }
+    
+    padding: 0.5em 0.5em;
+    width: 10em;
+    text-align: center;
+
+    &:hover {
+      background-color: $first-color;
+    }
+  }
+}
+
+.menu-programas {
+  &:hover {
+    .dropdown {
+    display: block;
+    }
+  }
+}
+
+/*RESPONSIVE NAVBAR MENU*/
+
+input[type=checkbox] {
+  display: none;
+} 
+  
+/*HAMBURGER MENU*/
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
