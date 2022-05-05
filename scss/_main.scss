@@ -1,3 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ 
+ .main-wrapper {
+  background-color: #fffffa;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer"
+  ;
+}
+
 /*MAIN SECTION*/
 
 main {
@@ -27,7 +46,7 @@ main {
 }
 
 h1 {
-  color: $first-color;
+  color: #03989E;
   font-style: bold;
   font-size: 30px;
   font-weight: bold;
@@ -35,7 +54,7 @@ h1 {
 }
   
 .info-encabezado {
-  color: $first-color;  
+  color: #03989E;  
   font-weight: bold;
   padding-top: 10px;
   background:#dbe2eb;
@@ -48,27 +67,27 @@ h1 {
 }   
   
 #colorbreadcrumb_link {
-  color: $second-color;
+  color: #2f4f4f;
 }
   
 #colorbreadcrumb {
-  color: $first-color;
+  color: #03989E;
 }
   
 #colorbreadcrumb_link {
   &:hover {
-    color: $first-color;
+    color: #03989E;
   }
 }
 
 .info-encabezado span {
-  color: $second-color;
+  color: #2f4f4f;
   font-weight: bold;
 }
 
 li {
   .breadcrumb-item {
-  color: $second-color;
+  color: #2f4f4f;
   }
 }
    
@@ -101,7 +120,7 @@ li {
   
 button {
   border-radius: 5px;
-  background-color: $second-color;
+  background-color: #2f4f4f;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
@@ -114,7 +133,7 @@ button {
     color: #fffffa;
     
     &:hover {
-      color: $first-color;
+      color: #03989E;
     }
   }
 }
@@ -124,7 +143,7 @@ button {
   
   background-color: #dbe2eb;
   line-height: 30px;
-  color: $second-color;
+  color: #2f4f4f;
   font-family: Open Sans, sans-serif;
   border-radius: 10px;
   padding: 30px;
@@ -174,7 +193,7 @@ input, textarea {
   
 #enterForm {
   &:active {
-  border: solid $second-color 0.5px;
+  border: solid #2f4f4f 0.5px;
   }
 }
   
@@ -228,7 +247,7 @@ iframe {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  color: $second-color;
+  color: #2f4f4f;
 } 
   
   

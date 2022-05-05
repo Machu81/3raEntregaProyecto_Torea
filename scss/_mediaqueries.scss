@@ -3,7 +3,7 @@
 @media screen and (max-width: 768px) {
 
     h1 {
-      color: $first-color;
+      color: #03989E;
       font-style: bold;
       font-size: 20px;
       font-weight: bold;
@@ -43,7 +43,7 @@
     .menu { 
       display:none;
       position: absolute;
-      background: $gradient-color;
+      background: linear-gradient (70deg, #2f4f4f, #018b8b);
       top: 100px;
       right: 0;
       left: 0;
@@ -55,7 +55,7 @@
       li {
         &:hover {
           display: inline-block;
-          background-color: $first-color;
+          background-color: #03989E;
           transition: 0.7s ease;
         }
       }
@@ -141,7 +141,7 @@
     }
   
     h1 {
-      color: $first-color;
+      color: #03989E;
       font-style: bold;
       font-size: 20px;
       font-weight: bold;
@@ -212,7 +212,7 @@
       display: flex;
       flex-direction: column;
       padding: 5px;
-      color: $second-color;
+      color: #2f4f4f;
     } 
   
     .texto-institucional {

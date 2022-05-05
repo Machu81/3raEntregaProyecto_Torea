@@ -1,10 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ 
+ .main-wrapper {
+  background-color: #fffffa;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer"
+  ;
+}
+
 /*FOOTER*/
 
 footer {
   grid-area: footer;
     
   color: #fffffa;
-  background: $gradient-color;
+  background: linear-gradient(70deg, #2f4f4f, #018b8b);
+
   display: flex;
   justify-content: center; 
   padding-top: 10px;
