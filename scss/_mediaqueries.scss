@@ -3,7 +3,7 @@
 @media screen and (max-width: 768px) {
 
     h1 {
-      color: #03989E;
+      color: $first-color;
       font-style: bold;
       font-size: 20px;
       font-weight: bold;
@@ -39,7 +39,7 @@
       margin-bottom: 20px;
       margin-top: 10px;
     }  
-  
+  /*
     .menu { 
       display:none;
       position: absolute;
@@ -55,7 +55,7 @@
       li {
         &:hover {
           display: inline-block;
-          background-color: #03989E;
+          background-color: $first-color;
           transition: 0.7s ease;
         }
       }
@@ -90,7 +90,47 @@
         }
       }
     }   
-  
+  */
+
+  .menu { 
+    display:none;
+    position: absolute;
+    background: linear-gradient(70deg, #2f4f4f, #018b8b);
+    top: 100px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color:#4c9e9e;
+    transition: 0.7s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type=checkbox]:checked ~ .menu{
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+
+  .dropdown li:hover {
+    background-color: #4c9e9e;
+  }   
+
     .texto-institucional {
       display: flex;
       flex-direction: column;
@@ -141,7 +181,7 @@
     }
   
     h1 {
-      color: #03989E;
+      color: $first-color;
       font-style: bold;
       font-size: 20px;
       font-weight: bold;

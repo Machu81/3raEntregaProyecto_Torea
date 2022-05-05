@@ -46,7 +46,7 @@ main {
 }
 
 h1 {
-  color: #03989E;
+  color: $first-color;
   font-style: bold;
   font-size: 30px;
   font-weight: bold;
@@ -54,7 +54,7 @@ h1 {
 }
   
 .info-encabezado {
-  color: #03989E;  
+  color: $first-color;  
   font-weight: bold;
   padding-top: 10px;
   background:#dbe2eb;
@@ -71,12 +71,12 @@ h1 {
 }
   
 #colorbreadcrumb {
-  color: #03989E;
+  color: $first-color;
 }
   
 #colorbreadcrumb_link {
   &:hover {
-    color: #03989E;
+    color: $first-color;
   }
 }
 

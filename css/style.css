@@ -57,6 +57,45 @@ li {
   padding: 5px 15px; }
 
 /* MENU DESPLEGABLE */
+/*   
+.menu-programas {
+  position: relative; 
+}
+  
+.dropdown {
+  background: linear-gradient(70deg, #2f4f4f, #018b8b);
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 37px;
+}
+  
+.dropdown {
+  li {
+    li {
+      margin-top: 10px;
+    }
+    
+    padding: 0.5em 0.5em;
+    width: 10em;
+    text-align: center;
+
+    &:hover {
+      background-color: $first-color;
+    }
+  }
+}
+
+.menu-programas {
+  &:hover {
+    .dropdown {
+    display: block;
+    }
+  }
+}
+*/
+/* MENU DESPLEGABLE */
 .menu-programas {
   position: relative; }
 
@@ -68,14 +107,16 @@ li {
   border-radius: 8px;
   top: 37px; }
 
+.dropdown li li {
+  margin-top: 10px; }
+
 .dropdown li {
   padding: 0.5em 0.5em;
   width: 10em;
   text-align: center; }
-  .dropdown li li {
-    margin-top: 10px; }
-  .dropdown li:hover {
-    background-color: #03989E; }
+
+.dropdown li:hover {
+  background-color: #4c9e9e; }
 
 .menu-programas:hover .dropdown {
   display: block; }
@@ -391,10 +432,62 @@ footer {
     margin-right: 20px;
     margin-bottom: 20px;
     margin-top: 10px; }
+  /*
+    .menu { 
+      display:none;
+      position: absolute;
+      background: linear-gradient (70deg, #2f4f4f, #018b8b);
+      top: 100px;
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+  
+    .menu {
+      li {
+        &:hover {
+          display: inline-block;
+          background-color: $first-color;
+          transition: 0.7s ease;
+        }
+      }
+    }
+  
+    .menu {
+      li {
+        li {
+        margin-top: 12px;
+        }
+      }
+    }
+  
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .dropdown {
+      left: 50%;
+      top: 30px;
+      transform: translateX(35%);
+    }
+  
+    .dropdown {
+      li {
+        &:hover {
+          background-color: #fffffa;
+        }
+      }
+    }   
+  */
   .menu {
     display: none;
     position: absolute;
-    background: linear-gradient 70deg, #2f4f4f, #018b8b;
+    background: linear-gradient(70deg, #2f4f4f, #018b8b);
     top: 100px;
     right: 0;
     left: 0;
@@ -402,9 +495,9 @@ footer {
     padding: 16px 0; }
   .menu li:hover {
     display: inline-block;
-    background-color: #03989E;
+    background-color: #4c9e9e;
     transition: 0.7s ease; }
-  .menu li li {
+  .menu li + li {
     margin-top: 12px; }
   input[type=checkbox]:checked ~ .menu {
     display: block; }
@@ -415,7 +508,7 @@ footer {
     top: 30px;
     transform: translateX(35%); }
   .dropdown li:hover {
-    background-color: #fffffa; }
+    background-color: #4c9e9e; }
   .texto-institucional {
     display: flex;
     flex-direction: column;
