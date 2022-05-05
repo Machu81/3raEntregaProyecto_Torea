@@ -39,7 +39,7 @@ main {
 }
 
 h1 {
-  color: #03989E;
+  color: $second-color;
   font-style: bold;
   font-size: 30px;
   font-weight: bold;
@@ -47,7 +47,7 @@ h1 {
 }
 
 .info-encabezado {
-  color: #03989E;  
+  color: $second-color;  
   font-weight: bold;
   padding-top: 10px;
   background:#dbe2eb;
@@ -60,23 +60,23 @@ h1 {
 }   
 
 #colorbreadcrumb_link {
-  color: #2f4f4f;
+  color: $first-color;
 }
 
 #colorbreadcrumb {
-  color: #03989E;
+  color: $second-color;
 }
 
 #colorbreadcrumb_link:hover {
-  color: #03989E;
+  color: $second-color;
 }
 
 .info-encabezado span {
-  color: #2f4f4f;
+  color: $first-color;
   font-weight: bold;
 }
 li .breadcrumb-item {
-  color: #2f4f4f;
+  color: $first-color;
 }
 
 .principal {
@@ -115,7 +115,7 @@ padding-left: 20px;
 
 button {
   border-radius: 10px;
-  background-color:#2f4f4f;
+  background-color: $first-color;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
@@ -130,7 +130,7 @@ button a {
 }
 
 button :hover {
-  color:#03989E;
+  color: $second-color;
 }
 
 .more-info { 
@@ -138,7 +138,7 @@ button :hover {
 
   background-color: #dbe2eb;
   line-height: 30px;
-  color: #2f4f4f;
+  color: $first-color;
   font-family: Open Sans, sans-serif;
   border-radius: 10px;
   padding: 30px;
@@ -240,6 +240,6 @@ iframe {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  color: #2f4f4f;
+  color: $first-color;
 } 
 

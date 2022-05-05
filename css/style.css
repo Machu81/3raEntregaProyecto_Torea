@@ -118,14 +118,14 @@ main {
   padding-top: 58px; }
 
 h1 {
-  color: #03989E;
+  color: #4c9e9e;
   font-style: bold;
   font-size: 30px;
   font-weight: bold;
   margin-top: 70px; }
 
 .info-encabezado {
-  color: #03989E;
+  color: #4c9e9e;
   font-weight: bold;
   padding-top: 10px;
   background: #dbe2eb;
@@ -140,10 +140,10 @@ h1 {
   color: #2f4f4f; }
 
 #colorbreadcrumb {
-  color: #03989E; }
+  color: #4c9e9e; }
 
 #colorbreadcrumb_link:hover {
-  color: #03989E; }
+  color: #4c9e9e; }
 
 .info-encabezado span {
   color: #2f4f4f;
@@ -196,7 +196,7 @@ button a {
   color: #ffffff; }
 
 button :hover {
-  color: #03989E; }
+  color: #4c9e9e; }
 
 .more-info {
   grid-area: more-info;
@@ -370,7 +370,7 @@ footer {
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   h1 {
-    color: #03989E;
+    color: #4c9e9e;
     font-style: bold;
     font-size: 20px;
     font-weight: bold;
@@ -457,7 +457,7 @@ footer {
     border-radius: 10px;
     width: max-content; }
   h1 {
-    color: #03989E;
+    color: #4c9e9e;
     font-style: bold;
     font-size: 20px;
     font-weight: bold;
