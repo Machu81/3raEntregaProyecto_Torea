@@ -1,96 +1,43 @@
 /* MEDIA QUERIES */ 
-
 @media screen and (max-width: 768px) {
 
-    h1 {
-      color: $first-color;
-      font-style: bold;
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 130px;
+  h1 {
+    color: #03989E;
+    font-style: bold;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 130px;
+  }
+
+  .principal {
+    grid-area: principal;
+ 
+    padding-left: 0;
+    padding-right: 0;
     }
-  
-    .principal {
-      grid-area: principal;
-   
-      padding-left: 0;
-      padding-right: 0;
-      }
-  
-    .infoBar {
-      padding-right: 20px;
-      padding-left: 20px;
-      padding-top: 20px;  
-    }
-  
-    #institucional {
-      margin-left: 25px;
-      margin-right: 25px;
-      margin-top: 20px;
-      margin-bottom: 5px;
-    }
-  
-    .more-info {
-      line-height: 20px;
-      font-size: 14px;
-      padding: 20px;
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      margin-top: 10px;
-    }  
-  /*
-    .menu { 
-      display:none;
-      position: absolute;
-      background: linear-gradient (70deg, #2f4f4f, #018b8b);
-      top: 100px;
-      right: 0;
-      left: 0;
-      text-align: center;
-      padding: 16px 0;
-    }
-  
-    .menu {
-      li {
-        &:hover {
-          display: inline-block;
-          background-color: $first-color;
-          transition: 0.7s ease;
-        }
-      }
-    }
-  
-    .menu {
-      li {
-        li {
-        margin-top: 12px;
-        }
-      }
-    }
-  
-    input[type=checkbox]:checked ~ .menu {
-      display: block;
-    }
-  
-    .hamburger {
-      display: block;
-    }
-  
-    .dropdown {
-      left: 50%;
-      top: 30px;
-      transform: translateX(35%);
-    }
-  
-    .dropdown {
-      li {
-        &:hover {
-          background-color: #fffffa;
-        }
-      }
-    }   
-  */
+
+  .infoBar {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;  
+  }
+
+  #institucional {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .more-info {
+    line-height: 20px;
+    font-size: 14px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }  
 
   .menu { 
     display:none;
@@ -131,201 +78,203 @@
     background-color: #4c9e9e;
   }   
 
-    .texto-institucional {
-      display: flex;
-      flex-direction: column;
-      padding: 0;
-      margin: 0;
-      
-    }
-  
-    .foto-institucional {
-      width: 100%;
-    }
-  
-    .parrafo-institucional {
-      font-style: italic;
-      padding-left: 0px;
-      padding-top: 0px;
-      padding-right: 0px;
-      margin-left: 0px;
-    }
-  
-   .social-bar {
-      position: fixed;
-      right: 0;
-      top: 300px;
-      font-size: 15px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      z-index: 100;
-    }
+  .texto-institucional {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
   }
-  
-   @media screen and (max-width: 425px) {
-  
-    .infoBar {
-      padding-right: 20px;
-      padding-left: 20px;
-      padding-top: 20px;  
-    }
-  
-    .portada {
-      background-image: url('../img/img1bis.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position:top;
-      border-radius: 10px;  
-      width:max-content;
-    }
-  
-    h1 {
-      color: $first-color;
-      font-style: bold;
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 130px;
-    }
-  
-    .principal {
-      grid-area: principal;
-      
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-  
-    .intro-texto {
-      padding-left: 80px;
-      color: #fffffa; 
-      text-shadow: #080808 2px 2px 3px;
-      padding-top: 100px;
-      padding-bottom: 60px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  
-    .intro-titulo {
-    font-size: 25px;
-    padding-top: 10px;
-    } 
-  
-    .intro-cuerpo {
-      font-size: 15px;
-      padding-top: 10px;
-    } 
-  
-    button {
-      margin-top: 20px;
-    }
-  
-    button {
-      a {
-        font-size: 16px;
-      }
-    }
-  
-    .more-info {
-    line-height: 20px;
-    font-size: 14px;
-    border-radius: 10px;
-    padding: 20px;
-    margin-left: 20px;
+
+  .foto-institucional {
+    width: 100%;
+  }
+
+  .parrafo-institucional {
+  font-style: italic;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  }
+
+ .social-bar {
+  position: fixed;
+  right: 0;
+  top: 300px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+  }
+}
+
+ @media screen and (max-width: 425px) {
+
+  .infoBar {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;  
+  }
+
+  .portada {
+    background-image: url('img/img1bis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    border-radius: 10px;  
+    width:max-content;
+  }
+
+  h1 {
+    color: #03989E;
+    font-style: bold;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 130px;
+  }
+
+  .principal {
+    grid-area: principal;
+    
     margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    }
-  
-    .cardContainer {
-      flex-direction: column;
-    }
-    
-    .card {
-      padding: 45px;
-      border-radius: 10px;
-      border: solid #CDD7E2;
-      border-width: 1px;
-      margin: 5px;
-    } 
-    
-    .textCard {
-      display: flex;
-      flex-direction: column;
-      padding: 5px;
-      color: #2f4f4f;
-    } 
-  
-    .texto-institucional {
-      display: flex;
-      flex-direction: row; 
-    }
-  
-    .foto-institucional {
-      width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-  
-    .parrafo-institucional {
-      padding: 0px;
-      margin-left: 0;
-      margin-right: 0;
-    } 
-  
-    #institucional {
-      margin-left: 25px;
-      margin-right: 25px;
-      margin-top: 20px;
-      margin-bottom: 5px;
-    }
-  
-    .info-encabezado { 
-      margin-top: 20px;
-      margin-bottom: 0px;
-      margin-left: 0;
-      margin-right: 0;
-    }
+    margin-left: 20px;
+  }
+
+  .intro-texto {
+    padding-left: 80px;
+    color: #f5f5f5; 
+    text-shadow: #080808 2px 2px 3px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .intro-titulo {
+  font-size: 25px;
+  padding-top: 10px;
+  } 
+
+  .intro-cuerpo {
+    font-size: 15px;
+    padding-top: 10px;
+  } 
+
+  button {
+    margin-top: 20px;
+  }
+
+  button a {
+    font-size: 16px;
+  }
+
+  .more-info {
+  line-height: 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  }
+
+  .cardContainer {
+    flex-direction: column;
   }
   
-@media (max-width: 1024px) {
+  .card {
+    padding: 45px;
+    border-radius: 10px;
+    border: solid #CDD7E2;
+    border-width: 1px;
+    margin: 5px;
+  } 
+  
+  .textCard {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: #2f4f4f;
+  } 
+
+  .texto-institucional {
+    display: flex;
+    flex-direction: row; 
+  }
+
+  .foto-institucional {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .parrafo-institucional {
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  } 
+
+  #institucional {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .info-encabezado { 
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+  @media (max-width: 1024px) {
+    
     .parrafo-institucional {
       padding-left: 20px;
       padding-top: 0px;
       padding-right: 20px;
-    }
-  
-    .principal {
-      grid-area: principal;
-      
-      margin: 60px;
-    }
-  
-    .foto-institucional {
-      width: 100%;
-    }
-  
-    .info-encabezado { 
+      }
+
+  .principal {
+    grid-area: principal;
+    
+    margin: 60px;
+   
+  }
+
+  .foto-institucional {
+    width: 100%;
+  }
+
+  .info-encabezado { 
       margin-top: 20px;
       margin-bottom: 0px;
       margin-left: 0;
       margin-right: 0;
     }
 }
-  
+
 @media screen and (max-width: 320px) {
-    .social-bar {
-      position: fixed;
-      right: 0;
-      top: 320px;
-      font-size: 15px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      z-index: 100;
-    }
-  
-    .texto-institucional {
-      width: 600px;
-    }
-  
+  .social-bar {
+    position: fixed;
+    right: 0;
+    top: 320px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+  }
+
+  .texto-institucional {
+    width: 600px;
+  }
+
 }
+
+
