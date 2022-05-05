@@ -1,3 +1,4 @@
+/* UTILITIES */
 * {
   margin: 0;
   padding: 0;
@@ -37,11 +38,11 @@ li {
   justify-content: space-between;
   padding: 10px;
   background: linear-gradient(70deg, #2f4f4f, #018b8b);
-  color: #fffffa;
+  color: #fff;
   font-weight: bold; }
 
 .nav-links a {
-  color: #fffffa; }
+  color: #fff; }
 
 .menu {
   display: flex;
@@ -49,52 +50,13 @@ li {
   font-size: 18px; }
 
 .menu li:hover {
-  background-color: #03989E;
+  background-color: #2f4f4f;
   border-radius: 5px;
   transition: 0.7s ease; }
 
 .menu li {
   padding: 5px 15px; }
 
-/* MENU DESPLEGABLE */
-/*   
-.menu-programas {
-  position: relative; 
-}
-  
-.dropdown {
-  background: linear-gradient(70deg, #2f4f4f, #018b8b);
-  padding: 1em 0;
-  position: absolute;
-  display: none;
-  border-radius: 8px;
-  top: 37px;
-}
-  
-.dropdown {
-  li {
-    li {
-      margin-top: 10px;
-    }
-    
-    padding: 0.5em 0.5em;
-    width: 10em;
-    text-align: center;
-
-    &:hover {
-      background-color: $first-color;
-    }
-  }
-}
-
-.menu-programas {
-  &:hover {
-    .dropdown {
-    display: block;
-    }
-  }
-}
-*/
 /* MENU DESPLEGABLE */
 .menu-programas {
   position: relative; }
@@ -155,12 +117,6 @@ main {
   padding-left: 40px;
   padding-top: 58px; }
 
-.principal {
-  grid-area: principal;
-  margin-top: 30px;
-  margin-right: 40px;
-  margin-left: 40px; }
-
 h1 {
   color: #03989E;
   font-style: bold;
@@ -196,6 +152,12 @@ h1 {
 li .breadcrumb-item {
   color: #2f4f4f; }
 
+.principal {
+  grid-area: principal;
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-left: 40px; }
+
 .portada {
   background-image: url("../img/img1.jpg");
   background-size: cover;
@@ -205,7 +167,7 @@ li .breadcrumb-item {
 
 .intro-texto {
   padding-left: 40px;
-  color: #fffffa;
+  color: #f5f5f5;
   text-shadow: #080808 2px 2px 3px;
   padding-top: 300px;
   padding-bottom: 200px; }
@@ -220,19 +182,21 @@ li .breadcrumb-item {
   padding-left: 20px; }
 
 button {
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #2f4f4f;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   margin-top: 30px;
   margin-left: 20px; }
-  button a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #fffffa; }
-    button a:hover {
-      color: #03989E; }
+
+button a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff; }
+
+button :hover {
+  color: #03989E; }
 
 .more-info {
   grid-area: more-info;
@@ -281,7 +245,7 @@ input, textarea {
   background-color: #CDD7E2; }
 
 #enterForm:active {
-  border: solid #2f4f4f 0.5px; }
+  border: solid #3d3b3b 0.5px; }
 
 .texto-institucional {
   display: flex;
@@ -342,7 +306,7 @@ iframe {
 /*FOOTER*/
 footer {
   grid-area: footer;
-  color: #fffffa;
+  color: #f5f5f5;
   background: linear-gradient(70deg, #2f4f4f, #018b8b);
   display: flex;
   justify-content: center;
@@ -432,58 +396,6 @@ footer {
     margin-right: 20px;
     margin-bottom: 20px;
     margin-top: 10px; }
-  /*
-    .menu { 
-      display:none;
-      position: absolute;
-      background: linear-gradient (70deg, #2f4f4f, #018b8b);
-      top: 100px;
-      right: 0;
-      left: 0;
-      text-align: center;
-      padding: 16px 0;
-    }
-  
-    .menu {
-      li {
-        &:hover {
-          display: inline-block;
-          background-color: $first-color;
-          transition: 0.7s ease;
-        }
-      }
-    }
-  
-    .menu {
-      li {
-        li {
-        margin-top: 12px;
-        }
-      }
-    }
-  
-    input[type=checkbox]:checked ~ .menu {
-      display: block;
-    }
-  
-    .hamburger {
-      display: block;
-    }
-  
-    .dropdown {
-      left: 50%;
-      top: 30px;
-      transform: translateX(35%);
-    }
-  
-    .dropdown {
-      li {
-        &:hover {
-          background-color: #fffffa;
-        }
-      }
-    }   
-  */
   .menu {
     display: none;
     position: absolute;
@@ -556,7 +468,7 @@ footer {
     margin-left: 20px; }
   .intro-texto {
     padding-left: 80px;
-    color: #fffffa;
+    color: #f5f5f5;
     text-shadow: #080808 2px 2px 3px;
     padding-top: 100px;
     padding-bottom: 60px;
