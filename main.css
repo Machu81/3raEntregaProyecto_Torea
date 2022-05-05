@@ -93,7 +93,7 @@ li {
   top: 37px;
  }
 
- .dropdown li + li {
+ .dropdown li li {
   margin-top: 10px;
  }
 
@@ -162,11 +162,11 @@ li {
   background: #018844;
 }
 
-.icon :first-child {
+.icon:first-child {
   border-radius: 1rem 0 0 0;
 }
 
-.icon :last-child {
+.icon:last-child {
   border-radius: 0 0 0 1rem;
 }
 
