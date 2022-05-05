@@ -1,22 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
- }
- 
- .main-wrapper {
-  background-color: #fffffa;
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
-  
-  display: grid;
-  grid-template-areas: 
-  "header"
-  "main"
-  "footer"
-  ;
-}
-
 /*MAIN SECTION*/
 
 main {
@@ -67,16 +48,23 @@ h1 {
   color: $second-color;
 }
 
-#colorbreadcrumb_link:hover {
-  color: $second-color;
+#colorbreadcrumb_link {
+  &:hover {
+    color: $second-color;
+  }
 }
 
-.info-encabezado span {
-  color: $first-color;
-  font-weight: bold;
+.info-encabezado {
+  span {
+    color: $first-color;
+    font-weight: bold;
+  }
 }
-li .breadcrumb-item {
-  color: $first-color;
+
+li {
+  .breadcrumb-item {
+    color: $first-color;
+  }
 }
 
 .principal {
@@ -123,14 +111,18 @@ button {
   margin-left: 20px;
 }
 
-button a {
-  font-size: 18px;
-  text-decoration: none;
-  color: #ffffff;
+button {
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+  }
 }
 
-button :hover {
-  color: $second-color;
+button {
+  &:hover {
+    color: $second-color;
+  }
 }
 
 .more-info { 
@@ -182,12 +174,16 @@ input, textarea {
   justify-content: center;
 }
 
-#enterForm:hover {
-  background-color:#CDD7E2;
+#enterForm {
+  :hover {
+    background-color:#CDD7E2;
+  }
 }
 
-#enterForm:active {
-  border: solid #3d3b3b 0.5px;
+#enterForm {
+  :active {
+    border: solid #3d3b3b 0.5px;
+  }
 }
 
 .texto-institucional {
