@@ -31,13 +31,15 @@ a {
 li {
   list-style: none; }
 
+.estilo-gradient, .navbar, footer {
+  color: #f5f5f5;
+  background: linear-gradient(70deg, #2f4f4f, #018b8b); }
+
 .navbar {
   grid-area: navbar;
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background: linear-gradient(70deg, #2f4f4f, #018b8b);
-  color: #fff;
   font-weight: bold; }
 
 .nav-links a {
@@ -142,8 +144,8 @@ li .breadcrumb-item {
 .principal {
   grid-area: principal;
   margin-top: 30px;
-  margin-right: 40px;
-  margin-left: 40px; }
+  margin-left: 40px;
+  margin-right: 40px; }
 
 .portada {
   background-image: url("../img/img1.jpg");
@@ -281,8 +283,6 @@ iframe {
 /*FOOTER*/
 footer {
   grid-area: footer;
-  color: #f5f5f5;
-  background: linear-gradient(70deg, #2f4f4f, #018b8b);
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -316,19 +316,19 @@ footer {
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
 
 .icon-facebook {
-  background: #2E406E; }
+  background-color: #2E406E; }
 
 .icon-instagram {
-  background: #3f729b; }
+  background-color: #3f729b; }
 
 .icon-twitter {
-  background: #339dc5; }
+  background-color: #339dc5; }
 
 .icon-youtube {
-  background: #E83028; }
+  background-color: #E83028; }
 
 .icon-whatsapp {
-  background: #018844; }
+  background-color: #018844; }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {

@@ -31,26 +31,20 @@
   }
 }
   
-.icon-facebook {
-  background: #2E406E;
+$icons: (
+  facebook: #2E406E,
+  instagram: #3f729b,
+  twitter: #339dc5,
+  youtube: #E83028,
+  whatsapp: #018844
+);
+
+@each $icon, $color in $icons {
+  .icon-#{$icon} {
+    background-color: $color;
+  }
 }
-  
-.icon-instagram {
-  background: #3f729b;
-}
-  
-.icon-twitter {
-  background: #339dc5;
-}
-  
-.icon-youtube {
-  background: #E83028;
-}
-  
-.icon-whatsapp {
-  background: #018844;
-}
-  
-    
+
+
  
   

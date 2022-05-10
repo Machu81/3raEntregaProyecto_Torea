@@ -27,6 +27,12 @@ li {
   list-style: none;
  }
 
+ 
+.estilo-gradient {
+  color:#f5f5f5;
+  background: linear-gradient(70deg, #2f4f4f, #018b8b);
+}
+
 .navbar {
   grid-area: navbar;
 
@@ -34,8 +40,7 @@ li {
  
   justify-content: space-between;
   padding: 10px;
-  background: linear-gradient(70deg, #2f4f4f, #018b8b);
-  color: #fff;
+  @extend .estilo-gradient;
   font-weight: bold;
  }
 
