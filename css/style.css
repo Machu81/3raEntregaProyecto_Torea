@@ -185,7 +185,11 @@ button a {
   color: #ffffff; }
 
 button:hover {
-  color: #4c9e9e; }
+  border: solid black 1px;
+  text-decoration: none; }
+
+h5:hover {
+  color: #ffffff; }
 
 .more-info {
   grid-area: more-info;
@@ -313,7 +317,8 @@ footer {
   .icon:hover {
     padding-right: 3rem;
     border-radius: 1rem 0 0 1rem;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+    color: #ffffff; }
 
 .icon-facebook {
   background-color: #2E406E; }

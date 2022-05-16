@@ -125,7 +125,14 @@ button {
 
 button {
   &:hover {
-    color: $second-color;
+    border: solid black 1px; 
+    text-decoration: none;
+  }
+}
+
+h5 {
+  &:hover {
+    color: #ffffff;
   }
 }
 
