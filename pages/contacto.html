@@ -56,7 +56,7 @@
                     
         <main>
             <div class="social-bar">
-                <a href="https://www.instagram.com/" class="icon icon-facebook" target="blank"></a>
+                <a href="https://www.facebook.com/" class="icon icon-facebook" target="blank"></a>
                 <a href="https://www.instagram.com/" class="icon icon-instagram" target="blank"></a>
                 <a href="https://twitter.com/" class="icon icon-twitter" target="blank"></a>
                 <a href="https://www.youtube.com/" class="icon icon-youtube" target="blank"></a>
@@ -78,22 +78,19 @@
                     <div class="col align-self-center">
                         <form>
                             <div>
-                            <select name="programas">
-                                <option value="seleccionar">Programa</option>
-                                <option value="miPrimerEstudio">Mi Primer Estudio</option>
-                                <option value="asociatividad">Asociatividad</option>
-                                <option value="tuNuevoRol">Tu Nuevo Rol</option>
-                                <option value="todos">Todos</option>
-                            </select>    
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Programa</option>
+                                    <option value="1">Mi Primer Estudio</option>
+                                    <option value="2">Asociatividad</option>
+                                    <option value="3">Tu Nuevo Rol</option>
+                                    <option value="4">Todos</option>
+                                  </select>
                             </div>
-                        <br>
-                                
-                                <input type="text" placeholder="Nombre"><br>
-                                <input class="form" type="text" placeholder="Email"><br>
-                                <textarea class="form" name="consulta" id="" cols="30" rows="10"
-                                placeholder="Ingrese su consulta aquí"></textarea> 
-                                <input id="enterForm" type="submit" value="Enviar">
-                            
+                            <br>
+                            <input type="text" placeholder="Nombre"><br>
+                            <input class="form" type="text" placeholder="Email"><br>
+                            <textarea class="form" name="consulta" id="" cols="30" rows="10" placeholder="Ingrese su consulta aquí"></textarea> 
+                            <button type="submit" class="btn btn-secondary">Enviar</button>
                         </form>
                     </div>
                 </div>

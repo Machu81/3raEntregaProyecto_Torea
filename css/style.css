@@ -228,18 +228,6 @@ input, textarea {
   border-radius: 5px;
   border: #CDD7E2; }
 
-#enterForm {
-  transition: all;
-  width: 100px;
-  display: flex;
-  justify-content: center; }
-
-#enterForm :hover {
-  background-color: #CDD7E2; }
-
-#enterForm :active {
-  border: solid #3d3b3b 0.5px; }
-
 .texto-institucional {
   display: flex;
   flex-direction: row;
