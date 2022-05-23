@@ -1,7 +1,7 @@
 /* MEDIA QUERIES */ 
 @media screen and (max-width: 768px) {
 
-  h1 {
+ h1 {
     color: $second-color;
     font-style: bold;
     font-size: 20px;
@@ -68,7 +68,6 @@
     }
   }
 
-
   input[type=checkbox]:checked ~ .menu{
     display: block;
   }
@@ -120,9 +119,13 @@
   align-items: flex-end;
   z-index: 100;
   }
+
+  .cardContainer {
+    margin-left: 100px;
+}
 }
 
- @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
 
   .infoBar {
     padding-right: 20px;
@@ -197,10 +200,13 @@
 
   .cardContainer {
     flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
   }
   
   .card {
-    padding: 45px;
+    padding: 15px;
     border-radius: 10px;
     border: solid #CDD7E2;
     border-width: 1px;
@@ -271,6 +277,17 @@
       margin-left: 0;
       margin-right: 0;
     }
+
+  .cardContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+  }
+
+@media screen and (min-width: 1440px) {
+  .cardContainer {
+    padding-left: 65px;
+  }
 }
 
 @media screen and (max-width: 320px) {
