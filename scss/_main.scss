@@ -1,5 +1,3 @@
-/*MAIN SECTION*/
-
 main {
   grid-area: main;
 
@@ -231,3 +229,21 @@ iframe {
   color: $first-color;
 } 
 
+table {
+  display: table;
+  border-collapse:separate;
+  text-indent: initial;
+  padding: 10px;
+}
+
+th {
+  padding: 5px;
+}
+
+tr {
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+}

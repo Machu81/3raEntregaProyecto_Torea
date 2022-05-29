@@ -1,6 +1,12 @@
 /* MEDIA QUERIES */ 
 @media screen and (max-width: 768px) {
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
  h1 {
     color: $second-color;
     font-style: bold;
@@ -126,6 +132,13 @@
 }
 
 @media screen and (max-width: 425px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
 
   .infoBar {
     padding-right: 20px;
@@ -253,6 +266,13 @@
 }
 
   @media (max-width: 1024px) {
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     }
+     
     
     .parrafo-institucional {
       padding-left: 20px;
@@ -285,12 +305,26 @@
   }
 
 @media screen and (min-width: 1440px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
   .cardContainer {
     padding-left: 65px;
   }
 }
 
 @media screen and (max-width: 320px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
   .social-bar {
     position: fixed;
     right: 0;

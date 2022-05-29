@@ -94,7 +94,6 @@ input[type=checkbox] {
   font-size: 24px;
   user-select: none; }
 
-/*MAIN SECTION*/
 main {
   grid-area: main;
   display: grid;
@@ -272,6 +271,21 @@ iframe {
   padding: 10px;
   color: #2f4f4f; }
 
+table {
+  display: table;
+  border-collapse: separate;
+  text-indent: initial;
+  padding: 10px; }
+
+th {
+  padding: 5px; }
+
+tr {
+  padding: 5px; }
+
+td {
+  padding: 5px; }
+
 /*FOOTER*/
 footer {
   grid-area: footer;
@@ -325,6 +339,10 @@ footer {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
   h1 {
     color: #4c9e9e;
     font-style: bold;
@@ -403,6 +421,10 @@ footer {
     margin-left: 100px; } }
 
 @media screen and (max-width: 425px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
   .infoBar {
     padding-right: 20px;
     padding-left: 20px;
@@ -490,6 +512,10 @@ footer {
     margin-right: 0; } }
 
 @media (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
   .parrafo-institucional {
     padding-left: 20px;
     padding-top: 0px;
@@ -509,10 +535,18 @@ footer {
     padding-right: 40px; } }
 
 @media screen and (min-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
   .cardContainer {
     padding-left: 65px; } }
 
 @media screen and (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
   .social-bar {
     position: fixed;
     right: 0;
